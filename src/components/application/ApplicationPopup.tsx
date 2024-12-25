@@ -17,9 +17,9 @@ const ApplicationPopup = () => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center px-4">
       <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" onClick={() => setIsOpen(false)} />
-      
+
       <div className="relative bg-white rounded-xl shadow-2xl w-full max-w-lg p-8 animate-fade-up">
-        <button 
+        <button
           onClick={() => setIsOpen(false)}
           className="absolute top-4 right-4 p-2 hover:bg-gray-100 rounded-full"
         >
@@ -50,13 +50,13 @@ const ApplicationPopup = () => {
             </ul>
           </div>
 
-          <button 
+          <button
             onClick={() => window.location.href = 'https://forms.gle/Je43tQzV1EhKdCeVA'}
             className="w-full py-3 px-4 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors"
           >
             Apply Now
           </button>
-          
+
           <p className="text-sm text-center text-gray-500">
             Early bird discount available until December 29th
           </p>
