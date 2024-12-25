@@ -41,11 +41,11 @@ const ApplicationPopup = () => {
             <h3 className="font-semibold text-blue-900 mb-2">Next Cohort Details:</h3>
             <ul className="space-y-2 text-blue-800">
               <li>• Starting: 04 January 2025</li>
-              <li>• Duration: 12 weeks</li>
+              <li>• Duration: 10 weeks</li>
               <li>• Program: Profesional Data Analytics</li>
               <li>• Flexible learning/Payment options</li>
               <li>• Industry-recognized certification</li>
-              <li>• Discount of 30% (120,000 Rwf)</li>
+              <li>• Discount of 40% (130,000 Rwf)</li>
               <li>• More Discount For Students, Disable and Female</li>
             </ul>
           </div>
@@ -67,8 +67,6 @@ const ApplicationPopup = () => {
 };
 
 export default ApplicationPopup;
-
-
 
 
 // import React, { useState, useEffect } from 'react';
