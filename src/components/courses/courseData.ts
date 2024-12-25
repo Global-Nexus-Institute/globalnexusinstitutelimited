@@ -136,9 +136,9 @@ export const courses: Course[] = [
     title: "SQL for Data Analysis",
     description:
       "Learn SQL to query, aggregate, and analyze data, enabling effective decision-making and data-driven insights for analysis.",
-    duration: "7 weeks",
+    duration: "6 weeks",
     price: "$60",
-    level: "Beginner",
+    level: "Intermediate",
     category: "Data Analysis",
     link: "https://canvas.instructure.com/register",
     pdfLink: "/assets/SQL_for_Data_Analysis_Content.pdf",
