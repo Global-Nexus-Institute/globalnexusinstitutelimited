@@ -6,4 +6,5 @@ export interface Course {
   level: string;
   link: string;
   category: string;
+  pdfLink: string;
 }
