@@ -92,7 +92,7 @@ export const courses: Course[] = [
     title: "Professional Data Analytics",
     description:
       "Master the basics of Python programming and its powerful data analysis tools like Excel, Python, MySQL, and PowerBI.",
-    duration: "18 weeks",
+    duration: "20 weeks",
     price: "$250",
     level: "Intermediate",
     category: "Data Analysis",
