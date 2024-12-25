@@ -93,7 +93,7 @@ export const courses: Course[] = [
     description:
       "Master the basics of Python programming and its powerful data analysis tools like Excel, Python, MySQL, and PowerBI.",
     duration: "20 weeks",
-    price: "$250",
+    price: "$200",
     level: "Intermediate",
     category: "Data Analysis",
     link: "https://canvas.instructure.com/register",
@@ -144,11 +144,11 @@ export const courses: Course[] = [
     pdfLink: "/assets/SQL_for_Data_Analysis_Content.pdf",
   },
   {
-    title: "Data Science: Intermediate",
+    title: "Data Science Bootcamp",
     description:
       "Bridge the gap between data science and business strategy with practical applications and case studies.",
-    duration: "10 weeks",
-    price: "$120",
+    duration: "24 weeks",
+    price: "$240",
     level: "Intermediate",
     category: "Data Science",
     link: "https://canvas.instructure.com/register",
