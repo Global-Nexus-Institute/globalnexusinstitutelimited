@@ -122,7 +122,7 @@ export const courses: Course[] = [
     pdfLink: "/assets/Machine_Learning_Fundamentals_Content.pdf",
   },
   {
-    title: "Basics Python Programming",
+    title: "Fundamental Python Programming",
     description:
       "Learn fundamental Python programming concepts, and pandas for data analysis.",
     duration: "6 weeks",
