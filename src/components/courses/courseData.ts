@@ -104,7 +104,7 @@ export const courses: Course[] = [
     description:
       "Learn to create powerful dashboards and reports using Microsoft Power BI for business insights.",
     duration: "6 weeks",
-    price: "$70",
+    price: "$80",
     level: "Intermediate",
     category: "Visualization/Business Intelligence",
     link: "https://canvas.instructure.com/register",
@@ -126,7 +126,7 @@ export const courses: Course[] = [
     description:
       "Learn fundamental Python programming concepts, and pandas for data analysis.",
     duration: "6 weeks",
-    price: "$50",
+    price: "$60",
     level: "Beginner",
     category: "Data Science",
     link: "https://canvas.instructure.com/register",
