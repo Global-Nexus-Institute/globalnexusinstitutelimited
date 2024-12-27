@@ -124,7 +124,7 @@ export const courses: Course[] = [
   {
     title: "Programming with Python",
     description:
-      "Learn the fundamental concepts of Python programming, including essential syntax, data types, and control structures, basics data analysis.",
+      "Learn the fundamental concepts of Python programming, including essential syntax, data types, and basics data analysis.",
     duration: "6 weeks",
     price: "$60",
     level: "Beginner",
