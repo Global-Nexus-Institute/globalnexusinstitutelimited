@@ -48,6 +48,7 @@ const ApplicationPopup = () => {
               <li>• Discount of 40% (130,000 Rwf)</li>
               <li>• Earn USA Certificate in Data Analytics</li>
               <li>• More Discount For Students, Disable and Female</li>
+              <li>• Form More Information, Contact: +250787406140</li>
             </ul>
           </div>
 
