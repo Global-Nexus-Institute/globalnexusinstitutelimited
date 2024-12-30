@@ -45,10 +45,10 @@ const ApplicationPopup = () => {
               <li>• Program: Profesional Data Analytics</li>
               <li>• Flexible learning/Payment options</li>
               <li>• Industry-recognized certification</li>
-              <li>• Discount of 40% (130,000 Rwf)</li>
-              <li>• Earn USA based University certificate</li>
-              <li>• More Discount For Students, Disable and Female</li>
-              <li>• For More Information, Contact: +250787406140</li>
+              <li>• Discount of 40% (130K Rwf/13200 Ksh)</li>
+              <li>• Earn Data Analytics Certificate from a U.S.-based university</li>
+              <li>• There is additional discount for Students, persons with special needs and women</li>
+              <li>• For More Information, Contact: +2507 874 06140 (Rwanda) & +254 707 825 181(Kenya)</li>
             </ul>
           </div>
 
