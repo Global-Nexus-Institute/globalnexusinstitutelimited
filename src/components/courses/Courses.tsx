@@ -26,7 +26,7 @@ const Courses = () => {
             Unlock new opportunities and achieve professional success 
             with our expertly designed courses. Gain cutting-edge skills, 
             practical knowledge, and the confidence to excel in field of
-            Data Analytics, Data, and Business Intelligence,etc.
+            Data Analytics/Science, and Business Intelligence,etc.
           </p>
         </div>
         <CourseFilters
