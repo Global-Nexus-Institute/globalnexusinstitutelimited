@@ -46,7 +46,7 @@ const ApplicationPopup = () => {
               <li>• Flexible learning/Payment options</li>
               <li>• Industry-recognized certification</li>
               <li>• Discount of 40% (130,000 Rwf)</li>
-              <li>• Earn USA Certificate in Data Analytics</li>
+              <li>• Earn USA based University certificate</li>
               <li>• More Discount For Students, Disable and Female</li>
               <li>• For More Information, Contact: +250787406140</li>
             </ul>
