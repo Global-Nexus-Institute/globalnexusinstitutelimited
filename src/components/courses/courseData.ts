@@ -100,15 +100,26 @@ export const courses: Course[] = [
     pdfLink: "/images/professional.pdf",
   },
   {
-    title: "Power BI Business Intelligence",
+    title: "Certificate in Business Analytics",
     description:
-      "Learn to create powerful dashboards and reports using Microsoft Power BI for business insights.",
-    duration: "6 weeks",
-    price: "$80",
+      "Learn to create powerful dashboards and reports using SQL, Python, and Power BI for business insights",
+    duration: "20 weeks",
+    price: "$200",
     level: "Intermediate",
     category: "Visualization/Business Intelligence",
     link: "https://canvas.instructure.com/register",
     pdfLink: "/assets/Power_BI_Content.pdf",
+  },
+  {
+    title: "Certificate in Data Science",
+    description:
+      "Bridge the gap between data science and business strategy with practical applications and case studies.",
+    duration: "24 weeks",
+    price: "$240",
+    level: "Intermediate",
+    category: "Data Science",
+    link: "https://canvas.instructure.com/register",
+    pdfLink: "/assets/Data_Science_Intermediate_Content.pdf",
   },
   {
     title: "Machine Learning Fundamentals",
