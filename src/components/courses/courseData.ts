@@ -154,15 +154,15 @@ export const courses: Course[] = [
     link: "https://canvas.instructure.com/register",
     pdfLink: "/assets/SQL_for_Data_Analysis_Content.pdf",
   },
-  {
-    title: "Data Science Bootcamp",
-    description:
-      "Bridge the gap between data science and business strategy with practical applications and case studies.",
-    duration: "24 weeks",
-    price: "$240",
-    level: "Intermediate",
-    category: "Data Science",
-    link: "https://canvas.instructure.com/register",
-    pdfLink: "/assets/Data_Science_Intermediate_Content.pdf",
-  },
+  // {
+  //   title: "Data Science Bootcamp",
+  //   description:
+  //     "Bridge the gap between data science and business strategy with practical applications and case studies.",
+  //   duration: "24 weeks",
+  //   price: "$240",
+  //   level: "Intermediate",
+  //   category: "Data Science",
+  //   link: "https://canvas.instructure.com/register",
+  //   pdfLink: "/assets/Data_Science_Intermediate_Content.pdf",
+  // },
 ];
