@@ -57,9 +57,10 @@ const Team = () => {
 
     },
     {
-      name: 'Simon Charles ',
-      role: 'Project and Operations Expert',
-      specialty: 'Project Management, Process Optimization',
+      name: 'Elizen Awuor',
+      role: 'Client Experience Cordinator ',
+      specialty: 'Customer Experience, Quality Assurance, Virtual Assistant',
+      imageUrl:'/images/elizen.jpeg'
     },
   ];
 
