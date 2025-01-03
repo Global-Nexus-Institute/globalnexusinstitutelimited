@@ -59,7 +59,7 @@ const Team = () => {
     {
       name: 'Elizen Awuor',
       role: 'Client Experience Cordinator ',
-      specialty: 'Customer Experience, Quality Assurance, Virtual Assistant',
+      specialty: 'Customer Experience, Quality Assurance',
       imageUrl:'/images/elizen.jpeg'
     },
   ];
