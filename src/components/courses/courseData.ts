@@ -97,7 +97,7 @@ export const courses: Course[] = [
     level: "Intermediate",
     category: "Data Analysis",
     link: "https://canvas.instructure.com/register",
-    pdfLink: "/images/professional.pdf",
+    pdfLink: "/images/Professional_Data_Analytics.pdf",
   },
   {
     title: "Certificate in Business Analytics",
@@ -108,7 +108,7 @@ export const courses: Course[] = [
     level: "Intermediate",
     category: "Visualization/Business Intelligence",
     link: "https://canvas.instructure.com/register",
-    pdfLink: "/assets/Power_BI_Content.pdf",
+    pdfLink: "/assets/Certificate_in_Business_Analytics.pdf",
   },
   {
     title: "Certificate in Data Science",
@@ -119,7 +119,7 @@ export const courses: Course[] = [
     level: "Intermediate",
     category: "Data Science",
     link: "https://canvas.instructure.com/register",
-    pdfLink: "/assets/Data_Science_Intermediate_Content.pdf",
+    pdfLink: "/assets/Certificate_in_Data_Science.pdf",
   },
   {
     title: "Machine Learning Fundamentals",
@@ -130,7 +130,7 @@ export const courses: Course[] = [
     level: "Intermediate",
     category: "AI & Machine Learning",
     link: "https://canvas.instructure.com/register",
-    pdfLink: "/assets/Machine_Learning_Fundamentals_Content.pdf",
+    pdfLink: "/assets/Machine_Learning_Fundamentals.pdf",
   },
   {
     title: "Python Data Analytics",
@@ -141,7 +141,7 @@ export const courses: Course[] = [
     level: "Beginner",
     category: "Data Science",
     link: "https://canvas.instructure.com/register",
-    pdfLink: "/assets/Basics_Python_Programming_Content.pdf",
+    pdfLink: "/assets/Python_Data_Analytics.pdf",
   },
   {
     title: "SQL for Data Analysis",
@@ -152,7 +152,7 @@ export const courses: Course[] = [
     level: "Intermediate",
     category: "Data Analysis",
     link: "https://canvas.instructure.com/register",
-    pdfLink: "/assets/SQL_for_Data_Analysis_Content.pdf",
+    pdfLink: "/assets/SQL_for_Data_Analysis.pdf",
   },
   // {
   //   title: "Data Science Bootcamp",
