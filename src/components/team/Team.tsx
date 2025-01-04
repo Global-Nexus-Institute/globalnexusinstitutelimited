@@ -60,7 +60,7 @@ const Team = () => {
       name: 'Elizen Awuor',
       role: 'Client Experience Coordinator ',
       specialty: 'Customer Experience, Quality Assurance',
-      imageUrl:'/images/elizen.jpeg'
+      imageUrl: '/images/elizen.jpeg'
     },
   ];
 
@@ -70,10 +70,10 @@ const Team = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Expert Team</h2>
           <p className="text-lg text-gray-600">
-            Meet our dedicated professionals committed to your success. 
-            Our team of experienced professionals is deeply committed to 
-            your growth and success. With passion, expertise, and a client-focused 
-            approach, we strive to deliver exceptional results and support you in 
+            Meet our dedicated professionals committed to your success.
+            Our team of experienced professionals is deeply committed to
+            your growth and success. With passion, expertise, and a client-focused
+            approach, we strive to deliver exceptional results and support you in
             achieving your goals
           </p>
         </div>
