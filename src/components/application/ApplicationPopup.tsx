@@ -38,14 +38,14 @@ const ApplicationPopup = () => {
 
         <div className="space-y-4">
           <div className="bg-blue-50 p-4 rounded-lg">
-            <h3 className="font-semibold text-blue-900 mb-2">Early Bird ends in 10 Days: Get a 70% Scholarship!</h3>
+            <h3 className="font-semibold text-blue-900 mb-2">Early Bird ends in 10 Days: Python Data Analytics/ Professional Data Analytics</h3>
             <ul className="space-y-2 text-blue-800">
-              <li>• Starting: Anytime (self-paced)</li>
-              <li>• Duration: 6 Weeks</li>
-              <li>• Program: Python Data Analytics</li>
-              <li>• Industry-recognized certification</li>
-              <li>• Pay Now: 15K RWF / 1,600 KES</li>
-              <li>• Pay Later: 5K RWF / 600 KES at the end (Certification) </li>
+              <li>• Starting: Anytime (self-paced)/ January 30, 2025</li>
+              <li>• Duration: 6 Weeks/12 Weeks with live sessions</li>
+              <li>• Program: Python Data Analytics/ Professional Data Analytics</li>
+              <li>• Industry-recognized certification/Osiri University Certificate</li>
+              <li>• Pay Now: (15K RWF or 1,600 KES)/ (130k Rwf or 13200KES)</li>
+              <li>• Pay Later: 5K RWF or 600 KES at the end (Certification)/NA </li>
               <li>• Contact us if you are a person with special needs</li>
               <li>• For More Information, Contact: +2507 874 06140 (Rwanda) & +254 707 825 181(Kenya)</li>
             </ul>
