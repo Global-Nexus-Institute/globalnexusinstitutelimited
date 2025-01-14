@@ -33,6 +33,9 @@ const DonateSection = () => {
             <div className="space-y-4">
               <div className="grid grid-cols-2 gap-4">
                 <button className="p-4 border-2 border-blue-600 rounded-lg text-blue-600 hover:bg-blue-50 font-semibold">
+                  $25
+                </button>
+                <button className="p-4 border-2 border-blue-600 rounded-lg text-blue-600 hover:bg-blue-50 font-semibold">
                   $50
                 </button>
                 <button className="p-4 border-2 border-blue-600 rounded-lg text-blue-600 hover:bg-blue-50 font-semibold">
@@ -40,9 +43,6 @@ const DonateSection = () => {
                 </button>
                 <button className="p-4 border-2 border-blue-600 rounded-lg text-blue-600 hover:bg-blue-50 font-semibold">
                   $250
-                </button>
-                <button className="p-4 border-2 border-blue-600 rounded-lg text-blue-600 hover:bg-blue-50 font-semibold">
-                  $500
                 </button>
               </div>
               <input

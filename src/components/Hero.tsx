@@ -15,7 +15,7 @@ const Hero = () => {
               Empower Your Future with Tech Skills
             </h1>
             <p className="text-lg text-gray-600 mb-8">
-              Join Global Nexus Institute for world-class training in Data Science, AI, and Cyber-Security. 
+              Join Global Nexus Institute for world-class training in Data Science, AI, and Cyber-Security.
               Transform your career with industry-leading certifications and expert guidance.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mb-12">
@@ -36,7 +36,7 @@ const Hero = () => {
             </div>
             <div className="grid grid-cols-3 gap-6">
               <div className="text-center">
-                <div className="text-2xl font-bold text-blue-600">500+</div>
+                <div className="text-2xl font-bold text-blue-600">100+</div>
                 <div className="text-sm text-gray-600">Students Trained</div>
               </div>
               <div className="text-center">
@@ -44,7 +44,7 @@ const Hero = () => {
                 <div className="text-sm text-gray-600">Success Rate</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-blue-600">50+</div>
+                <div className="text-2xl font-bold text-blue-600">20+</div>
                 <div className="text-sm text-gray-600">Expert Mentors</div>
               </div>
             </div>
