@@ -115,7 +115,7 @@ export const courses: Course[] = [
     description:
       "Bridge the gap between data science and business strategy with practical applications and case studies.",
     duration: "6 Months",
-    price: "$450",
+    price: "$500",
     level: "Intermediate",
     category: "Data Science",
     link: "https://canvas.instructure.com/register",
