@@ -92,7 +92,7 @@ export const courses: Course[] = [
     title: "Professional Data Analytics",
     description:
       "Master the Advanced of Python programming and its powerful data analysis tools, Excel, VScode, MySQL, and PowerBI.",
-    duration: "5 Months",
+    duration: "6 Months",
     price: "$400",
     level: "Intermediate",
     category: "Data Analysis",
@@ -103,7 +103,7 @@ export const courses: Course[] = [
     title: "Certificate in Business Analytics",
     description:
       "Learn to create powerful dashboards and reports using SQL, Python, and Power BI for business insights",
-    duration: "5 Months",
+    duration: "6 Months",
     price: "$400",
     level: "Intermediate",
     category: "Visualization/Business Intelligence",
@@ -114,7 +114,7 @@ export const courses: Course[] = [
     title: "Certificate in Data Science",
     description:
       "Bridge the gap between data science and business strategy with practical applications and case studies.",
-    duration: "6 Months",
+    duration: "7 Months",
     price: "$500",
     level: "Intermediate",
     category: "Data Science",
