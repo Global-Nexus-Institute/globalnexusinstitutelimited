@@ -126,7 +126,7 @@ export const courses: Course[] = [
     description:
       "Introduction to machine learning concepts, algorithms, and practical applications using Python.",
     duration: "2 Months",
-    price: "$16a0",
+    price: "$160",
     level: "Intermediate",
     category: "AI & Machine Learning",
     link: "https://canvas.instructure.com/register",
