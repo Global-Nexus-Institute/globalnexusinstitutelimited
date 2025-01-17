@@ -21,7 +21,7 @@ const Navigation = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <img src={logo} alt="Global Nexus Institute Logo" className="h-14 w-20" /> {/* Replace GraduationCap with the logo */}
-            <span className="ml-2 text-xl font-bold text-gray-800">Global Nexus Institute</span>
+            <span className="ml-2 text-xl font-bold text-gray-800">Global Nexus Institute of Technology</span>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
