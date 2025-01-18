@@ -1,5 +1,5 @@
 import React from 'react';
-import { Clock, Award, BookOpen, Download } from 'lucide-react';
+import { Clock, Award, BookOpen, Download, CreditCard } from 'lucide-react';
 
 interface CourseCardProps {
   title: string;
@@ -8,6 +8,7 @@ interface CourseCardProps {
   price: string;
   level: string;
   link: string;
+  paymentLink: string; // Added payment link prop
   category: string;
 }
 
@@ -19,6 +20,7 @@ const CourseCard: React.FC<CourseCardProps> = ({
   level,
   category,
   link,
+  paymentLink,
 }) => {
   const downloadPDF = () => {
     // Replace this with the actual URL structure for your PDFs
@@ -42,19 +44,30 @@ const CourseCard: React.FC<CourseCardProps> = ({
         </div>
         <div className="flex justify-between items-center mb-4">
           <span className="text-2xl font-bold text-blue-600">{price}</span>
-          <button className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-red-700 transition-colors">
-            <BookOpen className="h-4 w-4 mr-2" />
+          <div className="flex gap-2">
             {link && (
               <a
                 href={link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block text-white"
+                className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
               >
-                Enroll Now
+                <BookOpen className="h-4 w-4 mr-2" />
+                Sign In
               </a>
             )}
-          </button>
+            {paymentLink && (
+              <a
+                href={paymentLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors"
+              >
+                <CreditCard className="h-4 w-4 mr-2" />
+                Pay Now
+              </a>
+            )}
+          </div>
         </div>
         <button
           onClick={downloadPDF}

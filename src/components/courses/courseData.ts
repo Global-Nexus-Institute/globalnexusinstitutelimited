@@ -82,6 +82,7 @@ interface Course {
   price: string;       // The price of the course
   level: string;       // The skill level of the course (e.g., Beginner, Intermediate)
   link: string;        // The registration link for the course
+  paymentLink: string; // The payment link for the course
   category: string;    // The category to which the course belongs
   pdfLink: string;     // A link to download the course PDF content
 }
@@ -97,6 +98,7 @@ export const courses: Course[] = [
     level: "Intermediate",
     category: "Data Analysis",
     link: "https://canvas.instructure.com/register",
+    paymentLink: "https://paymentgateway.example.com/pay/professional-data-analytics",
     pdfLink: "/images/Professional_Data_Analytics.pdf",
   },
   {
@@ -108,6 +110,7 @@ export const courses: Course[] = [
     level: "Intermediate",
     category: "Visualization/Business Intelligence",
     link: "https://canvas.instructure.com/register",
+    paymentLink: "https://paymentgateway.example.com/pay/certificate-business-analytics",
     pdfLink: "/assets/Certificate_in_Business_Analytics.pdf",
   },
   {
@@ -119,6 +122,7 @@ export const courses: Course[] = [
     level: "Intermediate",
     category: "Data Science",
     link: "https://canvas.instructure.com/register",
+    paymentLink: "https://paymentgateway.example.com/pay/certificate-data-science",
     pdfLink: "/assets/Certificate_in_Data_Science.pdf",
   },
   {
@@ -130,6 +134,7 @@ export const courses: Course[] = [
     level: "Intermediate",
     category: "AI & Machine Learning",
     link: "https://canvas.instructure.com/register",
+    paymentLink: "https://paymentgateway.example.com/pay/machine-learning-fundamentals",
     pdfLink: "/assets/Machine_Learning_Fundamentals.pdf",
   },
   {
@@ -141,6 +146,7 @@ export const courses: Course[] = [
     level: "Beginner",
     category: "Data Science",
     link: "https://canvas.instructure.com/register",
+    paymentLink: "https://paymentgateway.example.com/pay/python-data-analytics",
     pdfLink: "/assets/Python_Data_Analytics.pdf",
   },
   {
@@ -152,17 +158,7 @@ export const courses: Course[] = [
     level: "Intermediate",
     category: "Data Analysis",
     link: "https://canvas.instructure.com/register",
+    paymentLink: "https://paymentgateway.example.com/pay/sql-for-data-analysis",
     pdfLink: "/assets/SQL_for_Data_Analysis.pdf",
-  },
-  // {
-  //   title: "Data Science Bootcamp",
-  //   description:
-  //     "Bridge the gap between data science and business strategy with practical applications and case studies.",
-  //   duration: "24 weeks",
-  //   price: "$240",
-  //   level: "Intermediate",
-  //   category: "Data Science",
-  //   link: "https://canvas.instructure.com/register",
-  //   pdfLink: "/assets/Data_Science_Intermediate_Content.pdf",
-  // },
+  }
 ];
