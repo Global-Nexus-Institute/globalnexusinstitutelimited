@@ -96,7 +96,7 @@ export const courses: Course[] = [
     price: "$400",
     level: "Intermediate",
     category: "Data Analysis",
-    link: "https://store.pesapal.com/paytrainingfees",
+    link: "https://store.pesapal.com/trainingfees",
     pdfLink: "/images/Professional_Data_Analytics.pdf",
   },
   {
@@ -107,7 +107,7 @@ export const courses: Course[] = [
     price: "$400",
     level: "Intermediate",
     category: "Visualization/Business Intelligence",
-    link: "https://store.pesapal.com/paytrainingfees",
+    link: "https://store.pesapal.com/trainingfees",
     pdfLink: "/assets/Certificate_in_Business_Analytics.pdf",
   },
   {
@@ -118,7 +118,7 @@ export const courses: Course[] = [
     price: "$500",
     level: "Intermediate",
     category: "Data Science",
-    link: "https://canvas.instructure.com/register",
+    link: "https://store.pesapal.com/trainingfees",
     pdfLink: "/assets/Certificate_in_Data_Science.pdf",
   },
   {
@@ -129,7 +129,7 @@ export const courses: Course[] = [
     price: "$160",
     level: "Intermediate",
     category: "AI & Machine Learning",
-    link: "https://canvas.instructure.com/register",
+    link: "https://store.pesapal.com/trainingfees",
     pdfLink: "/assets/Machine_Learning_Fundamentals.pdf",
   },
   {
@@ -140,7 +140,7 @@ export const courses: Course[] = [
     price: "$100",
     level: "Beginner",
     category: "Data Science",
-    link: "https://canvas.instructure.com/register",
+    link: "https://store.pesapal.com/pythondataanalyticscourse",
     pdfLink: "/assets/Python_Data_Analytics.pdf",
   },
   {
@@ -151,7 +151,7 @@ export const courses: Course[] = [
     price: "$100",
     level: "Intermediate",
     category: "Data Analysis",
-    link: "https://canvas.instructure.com/register",
+    link: "https://store.pesapal.com/trainingfees",
     pdfLink: "/assets/SQL_for_Data_Analysis.pdf",
   },
   // {
