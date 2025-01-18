@@ -137,7 +137,7 @@ export const courses: Course[] = [
     description:
       "Learn the fundamental concepts of Python programming, including essential syntax, data types, and basics data analysis.",
     duration: "1.5 Months",
-    price: "$100",
+    price: "$50",
     level: "Beginner",
     category: "Data Science",
     link: "https://store.pesapal.com/pythondataanalyticscourse",
