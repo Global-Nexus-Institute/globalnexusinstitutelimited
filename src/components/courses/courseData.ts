@@ -96,7 +96,7 @@ export const courses: Course[] = [
     price: "$400",
     level: "Intermediate",
     category: "Data Analysis",
-    link: "https://canvas.instructure.com/register",
+    link: "https://store.pesapal.com/shop/xlrom5-globalnexusinstituteltd?productCode=d3c0defb-f632-4156-8dd6-36be07b152a3",
     pdfLink: "/images/Professional_Data_Analytics.pdf",
   },
   {
@@ -107,7 +107,7 @@ export const courses: Course[] = [
     price: "$400",
     level: "Intermediate",
     category: "Visualization/Business Intelligence",
-    link: "https://canvas.instructure.com/register",
+    link: "https://store.pesapal.com/shop/xlrom5-globalnexusinstituteltd?productCode=2738eb08-6217-40bd-9ab7-333090c87f68",
     pdfLink: "/assets/Certificate_in_Business_Analytics.pdf",
   },
   {
