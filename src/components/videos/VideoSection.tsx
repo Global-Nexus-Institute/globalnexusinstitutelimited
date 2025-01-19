@@ -1,29 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Play } from 'lucide-react';
 import SectionTitle from '../shared/SectionTitle';
 
 const videos = [
   {
     id: 1,
-    thumbnail: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1471&q=80',
-    title: 'Professional Data Analytics Success Stories',
+    thumbnail: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1471&q=80',
+    title: 'Global Nexus Institute is Accredited by NCC',
     duration: '3:45',
+    link: 'https://www.youtube.com/embed/su_vds3i8hA', // Embed link
   },
   {
     id: 2,
     thumbnail: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&auto=format&fit=crop&w=1471&q=80',
-    title: ' AI & Machine Learning Webinar (Online)',
-    duration: '4:20',
+    title: 'Unlock Your Potential: Enroll With Us Today',
+    duration: '1:24',
+    link: 'https://www.youtube.com/embed/lAGO8RgqE8c?start=60', // Embed link
   },
   {
     id: 3,
     thumbnail: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&auto=format&fit=crop&w=1471&q=80',
-    title: 'Fundemental Data Analysis With Python',
+    title: 'How we Teach at Global Nexus Institute  ',
     duration: '5:15',
+    link: 'https://www.youtube.com/embed/QdaAd4E0gSg', // Embed link
   },
 ];
 
 const VideoSection = () => {
+  const [selectedVideo, setSelectedVideo] = useState(null);
+
   return (
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -32,9 +37,28 @@ const VideoSection = () => {
           subtitle="Watch our students and instructors in action"
         />
 
+        {/* Video Player */}
+        {selectedVideo && (
+          <div className="mb-8">
+            <iframe
+              src={selectedVideo}
+              title="Selected Video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="w-full aspect-video rounded-lg"
+            ></iframe>
+          </div>
+        )}
+
+        {/* Video Thumbnails */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {videos.map((video) => (
-            <div key={video.id} className="relative group">
+            <div
+              key={video.id}
+              className="relative group cursor-pointer"
+              onClick={() => setSelectedVideo(video.link)}
+            >
               <div className="relative overflow-hidden rounded-lg aspect-video">
                 <img
                   src={video.thumbnail}
