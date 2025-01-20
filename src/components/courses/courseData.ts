@@ -98,7 +98,7 @@ export const courses: Course[] = [
     level: "Intermediate",
     category: "Data Analysis",
     link: "https://canvas.instructure.com/register",
-    paymentLink: "https://paymentgateway.example.com/pay/professional-data-analytics",
+    paymentLink: "https://store.pesapal.com/dataanalyticsprogram",
     pdfLink: "/images/Professional_Data_Analytics.pdf",
   },
   {
@@ -110,7 +110,7 @@ export const courses: Course[] = [
     level: "Intermediate",
     category: "Visualization/Business Intelligence",
     link: "https://canvas.instructure.com/register",
-    paymentLink: "https://paymentgateway.example.com/pay/certificate-business-analytics",
+    paymentLink: "https://store.pesapal.com/businessanalyticsprogram",
     pdfLink: "/assets/Certificate_in_Business_Analytics.pdf",
   },
   {
@@ -122,19 +122,19 @@ export const courses: Course[] = [
     level: "Intermediate",
     category: "Data Science",
     link: "https://canvas.instructure.com/register",
-    paymentLink: "https://paymentgateway.example.com/pay/certificate-data-science",
+    paymentLink: "https://store.pesapal.com/datascienceprogram",
     pdfLink: "/assets/Certificate_in_Data_Science.pdf",
   },
   {
-    title: "Machine Learning Fundamentals",
+    title: "Machine Learning ",
     description:
       "Introduction to machine learning concepts, algorithms, and practical applications using Python.",
     duration: "2 Months",
-    price: "$160",
+    price: "$150",
     level: "Intermediate",
     category: "AI & Machine Learning",
     link: "https://canvas.instructure.com/register",
-    paymentLink: "https://paymentgateway.example.com/pay/machine-learning-fundamentals",
+    paymentLink: "https://store.pesapal.com/machinelearningprogram",
     pdfLink: "/assets/Machine_Learning_Fundamentals.pdf",
   },
   {
@@ -146,7 +146,7 @@ export const courses: Course[] = [
     level: "Beginner",
     category: "Data Science",
     link: "https://canvas.instructure.com/register",
-    paymentLink: "https://paymentgateway.example.com/pay/python-data-analytics",
+    paymentLink: "https://store.pesapal.com/pythondataanalyticsprogram",
     pdfLink: "/assets/Python_Data_Analytics.pdf",
   },
   {
@@ -158,7 +158,7 @@ export const courses: Course[] = [
     level: "Intermediate",
     category: "Data Analysis",
     link: "https://canvas.instructure.com/register",
-    paymentLink: "https://paymentgateway.example.com/pay/sql-for-data-analysis",
+    paymentLink: "https://store.pesapal.com/sqlfordataanalysisprogram",
     pdfLink: "/assets/SQL_for_Data_Analysis.pdf",
   }
 ];
