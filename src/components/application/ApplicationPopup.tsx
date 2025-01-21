@@ -35,20 +35,25 @@ const ApplicationPopup = () => {
           </p>
         </div>
 
-        {/* Centered Cancel Button */}
-        <div className="flex justify-center mb-4">
+        {/* Cancel Button with Text Behind */}
+        <div className="relative flex justify-center items-center mb-8">
+          {/* Cancel Button */}
           <button
             onClick={() => setIsOpen(false)}
-            className="p-2 bg-gray-100 hover:bg-gray-200 rounded-full"
+            className="p-2 bg-gray-100 hover:bg-gray-200 rounded-full z-10"
           >
             <X className="w-5 h-5 text-gray-500" />
           </button>
+          {/* Text Behind Button */}
+          <h3 className="absolute text-blue-900 text-xl font-semibold opacity-30">
+            Call For Application: Python Data Analytics
+          </h3>
         </div>
 
         {/* Training Details */}
         <div className="space-y-4 w-full">
           <div className="bg-blue-50 p-4 rounded-lg">
-            <h3 className="font-semibold text-blue-900 mb-2">Call For Application: Python Data Analytics</h3>
+            <h3 className="font-semibold text-blue-900 mb-2">Details</h3>
             <ul className="space-y-2 text-blue-800">
               <li>• Mode of Training: In-Person & Online </li>
               <li>• Starting Date: February 21, 2025</li>
