@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, GraduationCap } from 'lucide-react';
+import { X } from 'lucide-react'; // Removed the GraduationCap import
 
 const ApplicationPopup = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +27,8 @@ const ApplicationPopup = () => {
         {/* Header Section */}
         <div className="text-center mb-6">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full mb-4">
-            <GraduationCap className="w-8 h-8 text-blue-600" />
+            {/* Replacing the GraduationCap icon with the logo */}
+            <img src="/images/logo.png" alt="Logo" className="w-19 h-19 object-cover" />
           </div>
           <h2 className="text-2xl font-bold text-gray-900 mb-2">Applications Now Open!</h2>
           <p className="text-gray-600">
