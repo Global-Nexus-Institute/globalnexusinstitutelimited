@@ -141,7 +141,7 @@ export const courses: Course[] = [
     title: "Python Data Analytics",
     description:
       "Learn the fundamental concepts of Python programming, including essential syntax, data types, and basics data analysis.",
-    duration: "1.5 Months",
+    duration: "1 Month",
     price: "$50",
     level: "Beginner",
     category: "Data Science",
