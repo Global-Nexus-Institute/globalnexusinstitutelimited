@@ -40,7 +40,7 @@ const ApplicationPopup = () => {
           <div className="bg-blue-50 p-4 rounded-lg">
             <h3 className="font-semibold text-blue-900 mb-2">Call For Application: Python Data Analytics</h3>
             <ul className="space-y-2 text-blue-800">
-              <li>• Mode of Training: In-Person or Online </li>
+              <li>• Mode of Training: In-Person & Online </li>
               <li>• Starting Date: February 21, 2025</li>
               <li>• Duration: 4 Weeks with two sessions per week </li>
               <li>• In-person : Sat & Sun  from 9:00AM-3:00PM CAT (Kigali) </li>
