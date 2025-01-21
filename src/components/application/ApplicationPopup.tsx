@@ -16,17 +16,26 @@ const ApplicationPopup = () => {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center px-4">
-      <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" onClick={() => setIsOpen(false)} />
+      {/* Dimmed Background */}
+      <div
+        className="absolute inset-0 bg-black/50 backdrop-blur-sm"
+        onClick={() => setIsOpen(false)}
+      />
 
+      {/* Popup Content */}
       <div className="relative bg-white rounded-xl shadow-2xl w-full max-w-lg p-8 animate-fade-up">
+        {/* Cancel Button in the Center */}
         <button
           onClick={() => setIsOpen(false)}
-          className="absolute top-4 right-4 p-2 hover:bg-gray-100 rounded-full"
+          className="absolute inset-0 flex items-center justify-center"
         >
-          <X className="w-5 h-5 text-gray-500" />
+          <div className="flex items-center justify-center w-12 h-12 bg-gray-100 rounded-full hover:bg-gray-200">
+            <X className="w-6 h-6 text-gray-600" />
+          </div>
         </button>
 
-        <div className="text-center mb-6">
+        {/* Popup Details */}
+        <div className="text-center mt-12">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full mb-4">
             <GraduationCap className="w-8 h-8 text-blue-600" />
           </div>
@@ -36,50 +45,56 @@ const ApplicationPopup = () => {
           </p>
         </div>
 
-        <div className="space-y-4">
+        {/* Training Details */}
+        <div className="space-y-4 w-full mt-6">
           <div className="bg-blue-50 p-4 rounded-lg">
             <h3 className="font-semibold text-blue-900 mb-2">Call For Application: Python Data Analytics</h3>
             <ul className="space-y-2 text-blue-800">
               <li>• Mode of Training: In-Person & Online </li>
               <li>• Starting Date: February 21, 2025</li>
               <li>• Duration: 4 Weeks with two sessions per week </li>
-              <li>• In-person : Sat & Sun  from 9:00AM-3:00PM CAT (Kigali) </li>
-              <li>• Online: Sat & Sun from 7:30PM-9:30PM CAT  </li>
+              <li>• In-person : Sat & Sun from 9:00AM-3:00PM CAT (Kigali) </li>
+              <li>• Online: Sat & Sun from 7:30PM-9:30PM CAT </li>
               <li>• Fee: 60K RWF In-person or 40K RWF/5K KES (Online)</li>
               <li>• Contact us if you are a person with special needs</li>
-              <li>• WatsApp: +2507 874 06140 or +254 707 825 181 </li>
+              <li>• WhatsApp: +2507 874 06140 or +254 707 825 181 </li>
               <li>
-                <a href="https://store.pesapal.com/pythondataanalyticsprogram" target="_blank"
+                <a
+                  href="https://store.pesapal.com/pythondataanalyticsprogram"
+                  target="_blank"
                   style={{
                     display: 'block',
-                    padding: '8px 16px',  // Reduced padding
-                    backgroundColor: '#dc3545',  // Red color
+                    padding: '8px 16px',
+                    backgroundColor: '#dc3545',
                     color: 'white',
                     textAlign: 'center',
                     textDecoration: 'none',
                     borderRadius: '8px',
-                    fontSize: '14px',  // Smaller font size
+                    fontSize: '14px',
                     fontWeight: 'bold',
                     border: 'none',
                     cursor: 'pointer',
                     transition: 'background-color 0.3s ease',
                     width: 'auto',
-                    maxWidth: '200px', // Prevents button from stretching too wide
-                    margin: '0 auto'  // Centers the button
-                  }}>
+                    maxWidth: '200px',
+                    margin: '0 auto',
+                  }}
+                >
                   Make a Payment
                 </a>
               </li>
             </ul>
           </div>
 
+          {/* Apply Button */}
           <button
-            onClick={() => window.location.href = 'https://forms.gle/nS7WhSWjrfez9Est9'}
+            onClick={() => (window.location.href = 'https://forms.gle/nS7WhSWjrfez9Est9')}
             className="w-full py-3 px-4 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors"
           >
             Apply Now
           </button>
 
+          {/* Footer Text */}
           <p className="text-sm text-center text-gray-500">
             Learn new skills of 21st Century in 2025
           </p>
