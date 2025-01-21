@@ -40,12 +40,13 @@ const ApplicationPopup = () => {
           <div className="bg-blue-50 p-4 rounded-lg">
             <h3 className="font-semibold text-blue-900 mb-2">Call For Application: Python Data Analytics</h3>
             <ul className="space-y-2 text-blue-800">
-              <li>• Starting: In-Person/Face to Face / February 20, 2025</li>
+              <li>• Mode of Training: In-Person/Face to Face </li>
+              <li>• Starting Date: February 21, 2025</li>
               <li>• Duration: 4 Weeks with two sessions per week </li>
               <li>• Face to Face : Saturday & Sundany 9:00AM-3:00PM CAT (Kigali) </li>
               <li>• Online: Saturday & Sundany 7:30PM-9:30PM CAT  </li>
               <li>• Program: Python Data Analytics</li>
-              <li>• Pay Now: 60K (Face to Face ) Or 40000 RWF /5000 KES(Online)</li>
+              <li>• Pay Now: 60,000 RWF(In-person) and 40000 RWF/5000 KES(Online)</li>
               <li>• Contact us if you are a person with special needs</li>
               <li>• For More Information, Contact: +2507 874 06140 (Rwanda) & +254 707 825 181(Kenya)</li>
             </ul>
