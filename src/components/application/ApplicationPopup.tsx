@@ -43,13 +43,15 @@ const ApplicationPopup = () => {
               <li>• Mode of Training: In-Person or Online </li>
               <li>• Starting Date: February 21, 2025</li>
               <li>• Duration: 4 Weeks with two sessions per week </li>
-              <li>• In-person : Sat & Sun  From 9:00AM-3:00PM CAT (Kigali) </li>
-              <li>• Online: Sat & Sun From 7:30PM-9:30PM CAT  </li>
+              <li>• In-person : Sat & Sun  from 9:00AM-3:00PM CAT (Kigali) </li>
+              <li>• Online: Sat & Sun from 7:30PM-9:30PM CAT  </li>
               <li>• Program: Python Data Analytics</li>
               <li>• In-Preson Fee: 60,000 RWF</li>
               <li>• Online Fee: 40,000 RWF/5000 KES</li>
               <li>• Contact us if you are a person with special needs</li>
-              <li>• WatsApp: +2507 874 06140 (Rwanda) & +254 707 825 181(Kenya)</li>
+              <li>• WatsApp: +2507 874 06140 (Rwa) or +254 707 825 181(Ke)</li>
+              <li>• <a href="https://store.pesapal.com/pythondataanalyticsprogram" target="_blank">Make a Payment</a></li>
+
             </ul>
           </div>
 
