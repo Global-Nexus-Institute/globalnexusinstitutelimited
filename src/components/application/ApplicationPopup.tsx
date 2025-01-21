@@ -24,18 +24,8 @@ const ApplicationPopup = () => {
 
       {/* Popup Content */}
       <div className="relative bg-white rounded-xl shadow-2xl w-full max-w-lg p-8 animate-fade-up">
-        {/* Cancel Button in the Center */}
-        <button
-          onClick={() => setIsOpen(false)}
-          className="absolute inset-0 flex items-center justify-center"
-        >
-          <div className="flex items-center justify-center w-12 h-12 bg-gray-100 rounded-full hover:bg-gray-200">
-            <X className="w-6 h-6 text-gray-600" />
-          </div>
-        </button>
-
-        {/* Popup Details */}
-        <div className="text-center mt-12">
+        {/* Header Section */}
+        <div className="text-center mb-6">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full mb-4">
             <GraduationCap className="w-8 h-8 text-blue-600" />
           </div>
@@ -45,15 +35,25 @@ const ApplicationPopup = () => {
           </p>
         </div>
 
+        {/* Centered Cancel Button */}
+        <div className="flex justify-center mb-4">
+          <button
+            onClick={() => setIsOpen(false)}
+            className="p-2 bg-gray-100 hover:bg-gray-200 rounded-full"
+          >
+            <X className="w-5 h-5 text-gray-500" />
+          </button>
+        </div>
+
         {/* Training Details */}
-        <div className="space-y-4 w-full mt-6">
+        <div className="space-y-4 w-full">
           <div className="bg-blue-50 p-4 rounded-lg">
             <h3 className="font-semibold text-blue-900 mb-2">Call For Application: Python Data Analytics</h3>
             <ul className="space-y-2 text-blue-800">
               <li>• Mode of Training: In-Person & Online </li>
               <li>• Starting Date: February 21, 2025</li>
               <li>• Duration: 4 Weeks with two sessions per week </li>
-              <li>• In-person : Sat & Sun from 9:00AM-3:00PM CAT (Kigali) </li>
+              <li>• In-person: Sat & Sun from 9:00AM-3:00PM CAT (Kigali) </li>
               <li>• Online: Sat & Sun from 7:30PM-9:30PM CAT </li>
               <li>• Fee: 60K RWF In-person or 40K RWF/5K KES (Online)</li>
               <li>• Contact us if you are a person with special needs</li>
