@@ -114,7 +114,7 @@ export const courses: Course[] = [
     pdfLink: "/assets/Certificate_in_Business_Analytics.pdf",
   },
   {
-    title: "Certificate in Data Science",
+    title: " Certificate in Data Science and Artificiel Intelligence",
     description:
       "Bridge the gap between data science and business strategy with practical applications and case studies.",
     duration: "7 Months",
