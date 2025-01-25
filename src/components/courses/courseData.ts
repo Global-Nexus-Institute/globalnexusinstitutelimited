@@ -90,7 +90,7 @@ interface Course {
 // Array of courses containing course details
 export const courses: Course[] = [
   {
-    title: "Business Data Analytics and Technology",
+    title: "Business Data Analytics",
     description:
       "Master the Advanced of Python programming and its powerful data analysis tools, Excel, VScode, MySQL, and PowerBI.",
     duration: "6 Months",
@@ -114,7 +114,7 @@ export const courses: Course[] = [
     pdfLink: "/assets/Certificate_in_Business_Analytics.pdf",
   },
   {
-    title: " Certificate in Data Science and Artificiel Intelligence",
+    title: " Certificate of Data Science and AI",
     description:
       "Bridge the gap between data science and business strategy with practical applications and case studies.",
     duration: "7 Months",
