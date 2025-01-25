@@ -90,7 +90,7 @@ interface Course {
 // Array of courses containing course details
 export const courses: Course[] = [
   {
-    title: "Professional Data Analytics",
+    title: "Professional Business Data Analytics",
     description:
       "Master the Advanced of Python programming and its powerful data analysis tools, Excel, VScode, MySQL, and PowerBI.",
     duration: "6 Months",
