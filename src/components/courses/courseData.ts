@@ -102,7 +102,7 @@ export const courses: Course[] = [
     pdfLink: "/images/Professional_Data_Analytics.pdf",
   },
   {
-    title: "Certificate in Business Analytics",
+    title: "Business Intelligence with PowerBI",
     description:
       "Learn to create powerful dashboards and reports using SQL, Python, and Power BI for business insights",
     duration: "6 Months",
