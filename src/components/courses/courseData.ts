@@ -102,7 +102,7 @@ export const courses: Course[] = [
     pdfLink: "/images/Professional_Data_Analytics.pdf",
   },
   {
-    title: "Business Intelligence with PowerBI",
+    title: "Certificate in Business Intelligence with PowerBI",
     description:
       "Learn to create powerful dashboards and reports using SQL, Python, and Power BI for business insights",
     duration: "6 Months",
@@ -114,7 +114,7 @@ export const courses: Course[] = [
     pdfLink: "/assets/Certificate_in_Business_Analytics.pdf",
   },
   {
-    title: " Certificate in Data Science and AI",
+    title: " Certificate in Data Science and Artificial Intelligence",
     description:
       "Bridge the gap between data science and business strategy with practical applications and case studies.",
     duration: "7 Months",
