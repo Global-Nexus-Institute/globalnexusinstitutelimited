@@ -94,7 +94,7 @@ export const courses: Course[] = [
     description:
       "Master the Advanced of Python programming and its powerful data analysis tools, Excel, VScode, MySQL, and PowerBI.",
     duration: "6 Months",
-    price: "$400",
+    price: "$600",
     level: "Intermediate",
     category: "Data Analysis",
     link: "https://canvas.instructure.com/register",
@@ -106,7 +106,7 @@ export const courses: Course[] = [
     description:
       "Learn to create powerful dashboards and reports using SQL, Python, and Power BI for business insights",
     duration: "6 Months",
-    price: "$400",
+    price: "$600",
     level: "Intermediate",
     category: "Visualization/Business Intelligence",
     link: "https://canvas.instructure.com/register",
@@ -117,8 +117,8 @@ export const courses: Course[] = [
     title: "Certificate in Data Science",
     description:
       "Bridge the gap between data science and business strategy with practical applications and case studies.",
-    duration: "7 Months",
-    price: "$500",
+    duration: "8 Months",
+    price: "$800",
     level: "Intermediate",
     category: "Data Science",
     link: "https://canvas.instructure.com/register",
@@ -130,7 +130,7 @@ export const courses: Course[] = [
     description:
       "Introduction to machine learning concepts, algorithms, and practical applications using Python.",
     duration: "2 Months",
-    price: "$150",
+    price: "$200",
     level: "Intermediate",
     category: "AI & Machine Learning",
     link: "https://canvas.instructure.com/register",
