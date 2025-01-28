@@ -36,7 +36,7 @@ const Hero = () => {
             </div>
             <div className="grid grid-cols-3 gap-6">
               <div className="text-center">
-                <div className="text-2xl font-bold text-blue-600">100+</div>
+                <div className="text-2xl font-bold text-blue-600">300+</div>
                 <div className="text-sm text-gray-600">Students Trained</div>
               </div>
               <div className="text-center">
