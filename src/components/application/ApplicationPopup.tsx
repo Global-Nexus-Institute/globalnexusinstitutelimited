@@ -61,7 +61,7 @@ const ApplicationPopup = () => {
               <li>• Starting Date: February 21, 2025</li>
               <li>• Duration: 4 Weeks with two sessions per week </li>
               <li>• Online: Sat & Sun from 7:30PM-9:30PM CAT </li>
-              <li>• Fee: 60K RWF In-person or 40K RWF/5K KES (Online)</li>
+              <li>• Fee: 40,000 RWF/5,000 KES </li>
               <li>• Contact us if you are a person with special needs</li>
               <li>• WhatsApp: +2507 874 06140 or +254 707 825 181 </li>
               <li>
