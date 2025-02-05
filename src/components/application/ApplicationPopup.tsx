@@ -54,7 +54,7 @@ const ApplicationPopup = () => {
         {/* Training Details */}
         <div className="space-y-4 w-full">
           <div className="bg-blue-50 p-4 rounded-lg">
-            <h3 className="font-semibold text-blue-900 mb-2">Details</h3>
+            <h3 className="font-semibold text-blue-900 mb-2">Python Data Analytics Details</h3>
             <ul className="space-y-2 text-blue-800">
               <li>• Mode of Training: Live Online </li>
               <li>• Support: One on One Office Hours </li>
