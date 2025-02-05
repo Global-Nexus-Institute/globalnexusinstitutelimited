@@ -57,6 +57,7 @@ const ApplicationPopup = () => {
             <h3 className="font-semibold text-blue-900 mb-2">Details</h3>
             <ul className="space-y-2 text-blue-800">
               <li>• Mode of Training: Live Online </li>
+              <li>• Support: One on One Office Hours </li>
               <li>• Starting Date: February 21, 2025</li>
               <li>• Duration: 4 Weeks with two sessions per week </li>
               <li>• Online: Sat & Sun from 7:30PM-9:30PM CAT </li>
