@@ -11,9 +11,16 @@ const Team = () => {
     },
     {
       name: 'Francis KIPKOGEI YEGO',
-      role: 'Lead Data Scientist & Board',
+      role: 'Board Member & Data Scientist',
       specialty: 'Machine Learning, AI Research',
       imageUrl: '/images/francis.jpg',
+
+    },
+    {
+      name: 'Dieudonne UWASE',
+      role: 'Board Member & Business Coach',
+      specialty: 'Educational Technology, Course Development',
+      imageUrl: '/images/Uwase.jpg',
 
     },
     {
@@ -36,18 +43,10 @@ const Team = () => {
       imageUrl: '/images/didier.jpeg',
     },
     {
-      name: 'Dieudonne UWASE',
-      role: 'Business Coach & Training Coordinator',
-      specialty: 'Educational Technology, Course Development',
-      imageUrl: '/images/Uwase.jpg',
-
-    },
-    {
       name: 'Dr. Innocent NGARUYE',
       role: 'Senior Researcher & Data Scientist',
       specialty: 'Applied Maths, Data Science & Research',
       imageUrl: '/images/innocent.png',
-
     },
     {
       name: 'Geredi NIYIBIGIRA',
