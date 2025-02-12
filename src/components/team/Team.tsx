@@ -5,7 +5,7 @@ const Team = () => {
   const teamMembers = [
     {
       name: 'Theoneste NDAYISENGA',
-      role: 'Founder and CEO & Project Lead',
+      role: 'Founder, CEO & Project Lead',
       specialty: 'Education, Data Science, Financial Engineering',
       imageUrl: '/images/theoneste.jpeg',
     },
