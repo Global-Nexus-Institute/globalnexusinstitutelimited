@@ -31,11 +31,12 @@ const Team = () => {
 
     },
     {
-      name: 'Joe Sophia UMUHOZA',
-      role: 'Marketing Officer',
-      specialty: 'Mental Health, Education',
+      name: 'Francis Muhirwa',
+      role: 'Web & Graphic Designer',
+      specialty: 'Project management, Content Creation',
       imageUrl: '/images/sophia.jpeg',
     },
+
     {
       name: 'Didier NGAMIJE',
       role: 'Data Analytics Lead & Graphic Designer',
