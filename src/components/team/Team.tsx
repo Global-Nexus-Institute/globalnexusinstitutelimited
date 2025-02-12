@@ -39,7 +39,7 @@ const Team = () => {
 
     {
       name: 'Didier NGAMIJE',
-      role: 'Data Analytics Lead & Graphic Designer',
+      role: 'Data Analytics Lead',
       specialty: 'Data Analytics, Business Intelligence',
       imageUrl: '/images/didier.png',
     },
