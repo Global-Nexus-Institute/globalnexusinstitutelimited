@@ -24,10 +24,10 @@ const Team = () => {
 
     },
     {
-      name: 'Grace INGABIRE',
-      role: 'Director of Funding and Partnership',
-      specialty: 'Education Support, Statistical Analysis',
-      imageUrl: '/images/grace.jpeg',
+      name: 'Eugene MUTUYIMANA',
+      role: 'Course Facilitator',
+      specialty: 'Software development, Data Analysis',
+      imageUrl: '/images/eugene.jpg',
 
     },
     {
