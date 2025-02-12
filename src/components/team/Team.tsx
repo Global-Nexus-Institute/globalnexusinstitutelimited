@@ -34,14 +34,14 @@ const Team = () => {
       name: 'Francis Muhirwa',
       role: 'Web & Graphic Designer',
       specialty: 'Project management, Content Creation',
-      imageUrl: '/images/sophia.jpeg',
+      imageUrl: '/images/muhirwa.png',
     },
 
     {
       name: 'Didier NGAMIJE',
       role: 'Data Analytics Lead & Graphic Designer',
       specialty: 'Data Analytics, Business Intelligence',
-      imageUrl: '/images/didier.jpeg',
+      imageUrl: '/images/didier.png',
     },
     {
       name: 'Dr. Innocent NGARUYE',
