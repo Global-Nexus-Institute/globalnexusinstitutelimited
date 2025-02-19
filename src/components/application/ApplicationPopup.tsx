@@ -58,7 +58,7 @@ const ApplicationPopup = () => {
             <ul className="space-y-2 text-blue-800">
               <li>• Mode of Training: Live Online </li>
               <li>• Support: One on One Office Hours </li>
-              <li>• Starting Date: February 21, 2025</li>
+              <li>• Starting Date: March 1, 2025</li>
               <li>• Duration: 4 Weeks with two sessions per week </li>
               <li>• Online: Sat & Sun from 7:30PM-9:30PM CAT </li>
               <li>• Fee: 40,000 RWF/5,000 KES (Live Online) </li>
