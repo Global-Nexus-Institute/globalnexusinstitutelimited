@@ -1,29 +1,3 @@
-/*
-  # Create application and subscription tables
-
-  1. New Tables
-    - `applications`
-      - `id` (uuid, primary key)
-      - `full_name` (text)
-      - `email` (text)
-      - `phone` (text)
-      - `program_id` (uuid, references programs)
-      - `education_level` (text)
-      - `work_experience` (text)
-      - `status` (text)
-      - `created_at` (timestamptz)
-    
-    - `subscriptions`
-      - `id` (uuid, primary key)
-      - `email` (text, unique)
-      - `created_at` (timestamptz)
-
-  2. Security
-    - Enable RLS on all tables
-    - Add policies for public submissions
-    - Add policies for admin access
-*/
-
 -- Applications table
 CREATE TABLE IF NOT EXISTS applications (
   id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
