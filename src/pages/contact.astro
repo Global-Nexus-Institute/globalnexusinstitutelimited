@@ -32,7 +32,7 @@ import { Heart, Users } from "lucide-react";
             </div>
             <div>
               <h3 class="text-lg font-semibold text-primary mb-2">Email</h3>
-              <p class="text-gray-600">info@globalnexus.co.rw</p>
+              <p class="text-gray-600">theoneste.n@globalnexus.co.rw</p>
             </div>
             <div>
               <h3 class="text-lg font-semibold text-primary mb-2">Phone</h3>
@@ -134,16 +134,16 @@ import { Heart, Users } from "lucide-react";
                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-50"
               ></textarea>
             </div>
-            <a
+            <!-- <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSd0MGhARvgy_rCu4Ml6RvA8O0ICWoWghS57bNOSKHc1aR5RaA/viewform"
+            > -->
+            <button
+              type="submit"
+              class="w-full bg-primary text-white px-6 py-3 rounded-full hover:bg-primary-dark transition"
             >
-              <button
-                type="button"
-                class="w-full bg-primary text-white px-6 py-3 rounded-full hover:bg-primary-dark transition"
-              >
-                Send Message
-              </button>
-            </a>
+              Send Message
+            </button>
+            <!-- </a> -->
           </form>
         </div>
       </div>
@@ -252,4 +252,37 @@ import { Heart, Users } from "lucide-react";
       </div>
     </div>
   </section>
+  <script>
+    const form = document.querySelector("#contact-form");
+    const name = document.getElementById("name") as HTMLInputElement;
+    const email = document.getElementById("email") as HTMLInputElement;
+    const subject = document.getElementById("subject") as HTMLInputElement;
+    const message = document.getElementById("message") as HTMLTextAreaElement;
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const data = {
+        name: name.value,
+        email: email.value,
+        subject: subject.value,
+        message: message.value,
+      };
+      console.log(JSON.stringify(data));
+      const res = await fetch("/api/send-email.json/", {
+        method: "POST",
+        body: JSON.stringify(data),
+        headers: { "Content-Type": "application/json" },
+      });
+      const result = await res.json();
+      if (result.success) {
+        name.value = "";
+        email.value = "";
+        subject.value = "";
+        message.value = "";
+        alert("Email sent!");
+      } else {
+        alert("Failed to send email");
+      }
+    });
+  </script>
 </Layout>
